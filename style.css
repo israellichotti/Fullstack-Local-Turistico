@@ -13,6 +13,7 @@ body {
   margin: 32px;
 }
 
+
 #subtitle p {
   size: 16px;
   font-style: italic;
@@ -25,7 +26,8 @@ img {
 }
 
 #description {
-  padding-bottom: 64px;
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
 
 #headline h3 {
@@ -67,6 +69,8 @@ p {
 
 ul li::marker {
   color: #0C51A7;
+  content: "・";
+  font-size: 1rem;
 }
 
 ul + ul li::marker {
@@ -81,7 +85,7 @@ ul + ul + ul li + li + li::marker {
   color: #591B98;
 }
 
-.thirdlist ul li::marker {
+#thirdlist ul li::marker {
   color: #E5245E;
 }
 
