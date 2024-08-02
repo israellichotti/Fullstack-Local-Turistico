@@ -5,6 +5,7 @@
 body {
   background-color: #F5F4F0;
   border-color: #D9D9D9;
+  color: #333333;
 }
 
 #page {
@@ -12,7 +13,6 @@ body {
   border: 32px;
   margin: 32px;
 }
-
 
 #subtitle p {
   size: 16px;
@@ -34,6 +34,10 @@ img {
   color: #E1624F;
   size: 16px;
   font-weight: bold;
+}
+
+#final {
+  text-align: center;
 }
 
 h1 {
@@ -67,25 +71,44 @@ p {
   background-color: #d9d9d9;
 }
 
-ul li::marker {
+.bluelist {
   color: #0C51A7;
-  content: "・";
+  font-weight: bold;
+}
+
+.bluelist::marker {
+  color: #0C51A7;
   font-size: 1rem;
 }
 
-ul + ul li::marker {
+.coloredlist {
   color: #591B98;
+  font-weight: bold; 
 }
 
-ul + ul li + li::marker {
+.coloredlist::marker {
+  color: #591B98;
+  font-weight: bold;
+}
+
+.coloredlist li + li {
   color: #E5245E;
 }
 
-ul + ul + ul li + li + li::marker {
-  color: #591B98;
-}
-
-#thirdlist ul li::marker {
+.coloredlist li + li::marker {
   color: #E5245E;
 }
 
+.coloredlist li + li + li {
+  color: #E1624F;
+}
+
+.coloredlist li + li + li::marker {
+  color: #E1624F;
+}
+
+footer {
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 58px;
+}
