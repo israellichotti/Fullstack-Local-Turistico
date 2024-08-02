@@ -8,17 +8,26 @@ body {
 }
 
 #page {
-  padding: 48px;
+  padding: 32px;
+  border: 32px;
+  margin: 32px;
 }
 
-#subtitle {
+#subtitle p {
   size: 16px;
   font-style: italic;
+  text-align: center;
 }
 
 img {
   border-radius: 28px;  /* Adicionar o arredondamento da borda */
   width: 100%; /* imagem ocupa 100% do tamanho disponível pra ela */
+  padding-bottom: 24px;
+
+}
+
+#description {
+  padding-bottom: 64px;
 }
 
 #headline h3 {
@@ -77,3 +86,4 @@ ul + ul + ul li + li + li::marker {
 .thirdlist ul li::marker {
   color: #E5245E;
 }
+
