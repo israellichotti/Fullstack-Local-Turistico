@@ -22,8 +22,6 @@ body {
 img {
   border-radius: 28px;  /* Adicionar o arredondamento da borda */
   width: 100%; /* imagem ocupa 100% do tamanho disponível pra ela */
-  padding-bottom: 24px;
-
 }
 
 #description {
